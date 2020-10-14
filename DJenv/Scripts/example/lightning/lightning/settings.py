@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'ideas.apps.IdeasConfig',   # TODO  line inserted for connect ideas app with django project
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

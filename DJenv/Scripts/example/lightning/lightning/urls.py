@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import include,path
 
 urlpatterns = [
-    path('ideas/', include('ideas.urls')),
+    path('ideas/', include('ideas.urls')), # TODO  inserted line for connecting ideas.urls.py
     path('admin/', admin.site.urls),
 ]

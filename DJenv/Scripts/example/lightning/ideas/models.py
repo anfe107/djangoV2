@@ -1,5 +1,7 @@
 from django.db import models
 
+# TODO  generated file for defining model (-classes)
+
 class Question(models.Model):
     text = models.CharField(max_length=100)
     author = models.CharField(max_length=20)
